@@ -2,12 +2,24 @@
   box-sizing: border-box;
 }
 
-div {
+.form-container{
   width: 500px;
   background-color: lightblue;
   padding: 10px;
   margin: auto;
   margin-top: 50px;
+}
+
+.register{
+  text-align: center;
+}
+
+button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: darkBlue;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 input[type=text], select {
