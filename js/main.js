@@ -1,8 +1,6 @@
 $(document).ready(function(){
-  $('button').on('click', () => {
-    $('div').css({
-      'background-color': 'red'
-    });
+  $('.register').on('click', () => {
+    $('.form-container').slideToggle('fast');
   });
 
 });
