@@ -2,6 +2,46 @@
   box-sizing: border-box;
 }
 
+/*NAVIGATION*/
+
+/*NAVIGATION*/
+
+nav {
+  background-color: #333;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0;
+}
+
+nav ul li a {
+  font-family: arial;
+  padding: 0 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li:hover {
+  background-color: #555;
+}
+
+#responsive-nav {
+  cursor: pointer;
+  color: #fff;
+  font-family: arial;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+
 .form-container{
   width: 500px;
   background-color: lightblue;
